@@ -1,0 +1,144 @@
+body{
+  overflow: scroll;
+}
+
+.banner{
+  z-index: 1;
+  height: 180px;
+  background-image: url(../img/banner.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.effect{
+  position: relative;
+  bottom: -165px;
+  height: 15px;
+  width: 100%;
+  background-image: linear-gradient(
+    rgba(255,255,255,0),
+    rgba(255,255,255,1));
+}
+.describe{
+  position: relative;
+  top: -20px;
+  border-radius: 5PX;
+  background-color: white;
+  margin: 0 15px;
+  padding:15px;
+  box-shadow:0 0 12px 0 rgba(186,186,186,0.4);
+}
+.title{
+  margin: 0 0 10px 0;
+  font-size: 15px;
+  color: #333333;
+  font-weight: bold;
+}
+.location{
+  margin:0;
+  padding: 0;
+  font-size: 12px;
+  color: #666666;
+}
+.location span{
+  position: relative;
+  top: -3px;
+  padding:0 3px;
+}
+
+.location img{
+  height: 15px;
+  width: 13px;
+}
+.time{
+  margin: 0;
+  padding: 0;
+  float: right;
+  font-size: 12px;
+  color: #666666;
+}
+.time img{
+  height: 15px;
+  width: 15px;
+}
+.time span{
+  position: relative;
+  top: -3px;
+  padding-left: 6px;
+}
+.describtion{
+  font-size: 12px;
+  color: #333333;
+  margin:10px 0 0 0;;
+}
+.detail{
+  position: relative;
+  top: -32px;
+}
+ul{
+  padding: 0 15px;
+}
+li{
+  list-style: none;
+  height: 44PX;
+  border-bottom: 1px solid #dddddd;
+  vertical-align: middle;
+  text-align: left;
+  font-size: 14px;
+  line-height: 44px;
+  color: #999999;
+}
+li span{
+  color: #333333;
+  float: right;
+}
+.information{
+  overflow: hidden;
+  padding: 0 15px;
+  position: relative;
+  top: -34px;
+}
+.avatar{
+  margin: 0 6px 0 0;
+  float: left;
+  width: 36px;
+  height: 36px;
+}
+.name{
+  display: block;
+  float: left;
+  font-size: 14px
+}
+.evaluate{
+  float: right;
+  vertical-align: middle;
+  line-height: 36px;
+}
+.more{
+  position: relative;
+  top:-28px;
+  padding: 0 15px;
+}
+.navigation{
+  vertical-align: middle;
+  line-height: 50px;
+  padding: 0 0 0 15px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 49px;
+  background-color: white;
+  z-index: 99;
+  box-shadow:0 0 12px 0 rgba(54,54,54,0.2);
+}
+.bottom-button{
+  margin: 0 15px;
+  padding: 0;
+  border: none;
+  background-color: #f6bb1b;
+  color: white;
+  font-size: 15px;
+  float: right;
+  width: 120px;
+  height: 49px;
+  text-align: center;
+}
